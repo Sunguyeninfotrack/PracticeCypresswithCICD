@@ -6,7 +6,7 @@ workflows:
   build:
     jobs:
       - cypress/run:
-          name: chromium
-          browser: chromium
+          executor: cypress/browsers-chrome99
+          browser: chrom
 
      
