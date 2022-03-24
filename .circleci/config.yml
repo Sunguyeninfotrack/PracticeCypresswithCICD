@@ -6,9 +6,19 @@ orbs:
 workflows:
   build:
     jobs:
+      - cypress/install
       - cypress/run:
           config: 'pageLoadTimeout=100000,watchForFileChanges=false'        
-          
+          name: Chrome
+          requires:
+            - cypress/install
+          executor: cypress/browsers-chrome69
+          record: true
+          parallel: true
+          parallelism: 2
+          group: smoke tests
+          browser: chrome
+          spec: cypress/integration/smoke/*
           
 
      
