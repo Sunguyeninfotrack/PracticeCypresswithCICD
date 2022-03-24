@@ -1,21 +1,13 @@
-# See https://github.com/cypress-io/circleci-orb
 version: 2.1
 orbs:
   cypress: cypress-io/cypress@1
-
+executors:
+  with-chrome:
+    docker:
+      - image: 'cypress/browsers:node14.16.0-chrome90-ff88'
 workflows:
   build:
     jobs:
-      - cypress/install
       - cypress/run:
-          config: 'pageLoadTimeout=100000,watchForFileChanges=false'        
-          name: Chrome
-          requires:
-            - cypress/install
-          executor: cypress/browsers-chrome69
-          record: true                
+          executor: with-chrome
           browser: chrome
-          
-          
-
-     
