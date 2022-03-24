@@ -13,12 +13,9 @@ workflows:
           requires:
             - cypress/install
           executor: cypress/browsers-chrome69
-          record: true
-          parallel: true
-          parallelism: 2
-          group: smoke tests
+          record: true                
           browser: chrome
-          spec: cypress/integration/smoke/*
+          
           
 
      
