@@ -5,8 +5,8 @@ orbs:
 workflows:
   build:
     jobs:
-      - cypress/run
-         executor: with-chrome
+      - cypress/run:
+          name: Chrome
           browser: chrome
 
      
