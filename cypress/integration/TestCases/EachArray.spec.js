@@ -1,5 +1,3 @@
-
-
 describe('Example to demonstrate the use each in Cypress', function () {
     before(function () {
         cy.visit('https://opensource-demo.orangehrmlive.com/')
@@ -24,5 +22,5 @@ describe('Example to demonstrate the use each in Cypress', function () {
         })
     })
 
- 
+  
 })
