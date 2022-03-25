@@ -17,6 +17,7 @@
         "json": true
      },  
     "video": false,
-    "screenshotsFolder": "images",   
+    "screenshotsFolder": "images",  
+    "testFiles": "**/*.feature", 
     "projectId": "1zv8tf"    
   }
