@@ -147,7 +147,13 @@ class NZDocumentStatus
         cy.get(Document_status.OrderDetail).click()
         cy.get(Document_status.OrderStatus).should('contain','The order completed successfully.')
     }
-  
+    static OrderList()
+    {
+        cy.get(Document_status.Order1).should('contain','893988').and('contain','875799')
+        .and('contain','810325').and('contain','893632').and('contain','869473').and('contain','871268')
+        .and('contain','405183').and('contain','839522').and('contain','102553')
+        
+    }
 }
 export default NZDocumentStatus;
 

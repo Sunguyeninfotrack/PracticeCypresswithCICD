@@ -81,6 +81,7 @@ And("the user clicks on Order button to complete the Order",function(){
 	NZDocumentStatus.OrderClick()
 });
 And("the user sees the list of document is correct",function(){	
+	NZDocumentStatus.OrderList()
 });
 Then("the user sees the orders with these status generated successfully",function(){	 
 	NZDocumentStatus.OrderStatus()
