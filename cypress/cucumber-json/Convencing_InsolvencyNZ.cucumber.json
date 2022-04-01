@@ -1,0 +1,158 @@
+[
+  {
+    "description": "    As the user, I want to search and order an InsolvencyNZ",
+    "keyword": "Feature",
+    "name": "InsolvencyNZ Order",
+    "line": 1,
+    "id": "insolvencynz-order",
+    "tags": [],
+    "uri": "Convencing_InsolvencyNZ.feature",
+    "elements": [
+      {
+        "id": "insolvencynz-order;validation-the-user-can-search-and-order-by-document-status",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Validation the user can search and order by Document status",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 21
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user logins to InsolvencyNZ search page",
+            "result": {
+              "status": "passed",
+              "duration": 12591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the user inputs Mater value and DocumentID with status Current Bankrupt",
+            "result": {
+              "status": "passed",
+              "duration": 6683000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "the user inputs Mater value and DocumentID with status Discharged Early",
+            "result": {
+              "status": "passed",
+              "duration": 6981000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "the user inputs Mater value and DocumentID with status Conditionally Discharged",
+            "result": {
+              "status": "passed",
+              "duration": 6899000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the user inputs Mater value and DocumentID with status Current NAP",
+            "result": {
+              "status": "passed",
+              "duration": 6867000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "the user inputs Mater value and DocumentID with status Completed",
+            "result": {
+              "status": "passed",
+              "duration": 6869000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "the user inputs Mater value and DocumentID with status Current SIO",
+            "result": {
+              "status": "passed",
+              "duration": 6898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "the user inputs Mater value and DocumentID with status Currently in Liquidation",
+            "result": {
+              "status": "passed",
+              "duration": 7078000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "the user inputs Mater value and DocumentID with status Automatically Discharged",
+            "result": {
+              "status": "passed",
+              "duration": 6976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "the user inputs Mater value and DocumentID with status Unspecified",
+            "result": {
+              "status": "passed",
+              "duration": 6976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "the user clicks on Order button to complete the Order",
+            "result": {
+              "status": "passed",
+              "duration": 44077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "the user sees the list of document is correct",
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "the user sees the orders with these status generated successfully",
+            "result": {
+              "status": "passed",
+              "duration": 501000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

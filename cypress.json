@@ -1,13 +1,23 @@
 {
-    "reporter": "cypress-multi-reporters",
-    "reporterOptions": {
-        "reporterEnabled": "mochawesome",
-        "mochawesomeReporterOptions": {
-            "reportDir": "cypress/reports/mocha",
-            "quite": true,
-            "overwrite": false,
-            "html": false,
-            "json": true
-        }
-    }
-}
+    "chromeWebSecurity": true,
+    "env": {
+
+      "ProductionInsolvency":"https://search.infotrack.com.au/insolvencynz/search",
+      "StagingInsolvency":"https://stagesearch.infotrack.com.au/insolvencynz/search"
+    },
+    "pageLoadTimeout": 60000,
+    "defaultCommandTimeout": 60000,
+    "viewportWidth": 980,
+    "viewportHeight": 1200,
+    "reporter": "mochawesome",
+     "reporterOptions": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": true,
+        "json": true
+     },  
+    "video": false,
+    "screenshotsFolder": "images",  
+    "testFiles": "**/*.feature", 
+    "projectId": "1zv8tf"    
+  }

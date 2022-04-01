@@ -1,0 +1,58 @@
+{
+
+   "Login":{
+        "username":"#username",
+        "password":"#password",
+        "loginbtn":"#btn-submit"
+    },
+    "Search":
+    {
+        "Matter":"#nameSearch > tbody > tr:nth-child(1) > td:nth-child(1) ",
+        "DocumentID":":nth-child(2) > .INZ-formField",
+        "OrdBtn":".floatR > .INZ-button",
+        "NameSelect":"#browseResults > table > tbody:nth-child(3) > tr:nth-child(1) > td:nth-child(6) > input",
+        "BurtonBankrupt":"#browseResults > table > tbody:nth-child(3) > tr:nth-child(1) > td:nth-child(5)",
+        "BurtonDischarged":"#browseResults > table > tbody:nth-child(3) > tr:nth-child(3) > td:nth-child(5)",
+        "ButtonConditionally":"#browseResults > table > tbody:nth-child(3) > tr:nth-child(4) > td:nth-child(5)",
+        "ButtonNAP":"#browseResults > table > tbody:nth-child(3) > tr:nth-child(9) > td:nth-child(5)",
+        "OrderDetail":"#btnDetails",
+        "OrderStatus":"#orderDetailsBreakdown > dd.wordWrap"
+
+    },
+    "Document":
+    {
+        "Matter":"#nameSearch > tbody > tr:nth-child(1) > td:nth-child(1) ",
+        "DocumentID":":nth-child(2) > .INZ-formField",
+        "OrdBtn":".floatR > .INZ-button",
+        "OrderDetail":"#btnDetails",
+        "OrderStatus":"#orderDetailsBreakdown > dd.wordWrap",
+        "Documentdisplay":"#nameSearch > tbody > tr:nth-child(1) > td:nth-child(3) > span"
+    },
+    "Document_status":
+    {
+        "Matter1":"#nameSearch > tbody > tr:nth-child(1) > td:nth-child(1) ",
+        "DocumentID1":":nth-child(2) > .INZ-formField",
+        "OrdBtn":".floatR > .INZ-button",
+        "OrderDetail":"#btnDetails",
+        "OrderStatus":"#orderDetailsBreakdown > dd.wordWrap",
+        "Documentdisplay":"#nameSearch > tbody > tr:nth-child(1) > td:nth-child(3) > span",
+        "Matter2":"#nameSearch > tbody > tr:nth-child(3) > td:nth-child(1)",
+        "DocumentID2":"#nameSearch > tbody > tr:nth-child(3) > td:nth-child(2) > input",
+        "Matter3":"#nameSearch > tbody > tr:nth-child(5) > td:nth-child(1)",
+        "DocumentID3":"#nameSearch > tbody > tr:nth-child(5) > td:nth-child(2) > input",
+        "Matter4":"#nameSearch > tbody > tr:nth-child(7) > td:nth-child(1)",
+        "DocumentID4":"#nameSearch > tbody > tr:nth-child(7) > td:nth-child(2) > input",
+        "Matter5":"#nameSearch > tbody > tr:nth-child(9) > td:nth-child(1)",
+        "DocumentID5":"#nameSearch > tbody > tr:nth-child(9) > td:nth-child(2) > input",
+        "Matter6":"#nameSearch > tbody > tr:nth-child(11) > td:nth-child(1)",
+        "DocumentID6":"#nameSearch > tbody > tr:nth-child(11) > td:nth-child(2) > input",
+        "Matter7":"#nameSearch > tbody > tr:nth-child(13) > td:nth-child(1)",
+        "DocumentID7":"#nameSearch > tbody > tr:nth-child(13) > td:nth-child(2) > input",
+        "Matter8":"#nameSearch > tbody > tr:nth-child(15) > td:nth-child(1) ",
+        "DocumentID8":"#nameSearch > tbody > tr:nth-child(15) > td:nth-child(2) > input",
+        "Matter9":"#nameSearch > tbody > tr:nth-child(17) > td:nth-child(1)",
+        "DocumentID9":"#nameSearch > tbody > tr:nth-child(17) > td:nth-child(2) > input",
+        "Order1":"#formOrderViewGrid"
+       
+    }
+}

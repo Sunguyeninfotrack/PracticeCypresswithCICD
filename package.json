@@ -1,13 +1,27 @@
 {
+  "name": "cypressauto",
+  "version": "1.0.0",
+  "description": "cypress automation",
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
   "devDependencies": {
     "cypress": "^9.5.2",
+    "cypress-cucumber-preprocessor": "^4.3.1",
     "cypress-multi-reporters": "^1.5.0",
+    "cypress-wait-until": "^1.7.2",
     "mocha": "^9.2.2",
     "mochawesome": "^7.1.2",
     "mochawesome-merge": "^4.2.1",
     "mochawesome-report-generator": "^6.1.1"
   },
-  
   "scripts": {
     "launchcypress": "./node_modules/.bin/cypress open",
     "testcase": "./node_modules/.bin/cypress run --record --key 93545061-84ed-4df4-bcde-7768497f2c35",
