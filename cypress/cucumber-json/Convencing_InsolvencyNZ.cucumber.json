@@ -9,16 +9,11 @@
     "uri": "Convencing_InsolvencyNZ.feature",
     "elements": [
       {
-        "id": "insolvencynz-order;validation-the-user-can-search-and-order-by-document-status",
+        "id": "insolvencynz-order;validation-the-user-can-search-and-order-by-name",
         "keyword": "Scenario",
-        "line": 22,
-        "name": "Validation the user can search and order by Document status",
-        "tags": [
-          {
-            "name": "@focus",
-            "line": 21
-          }
-        ],
+        "line": 8,
+        "name": "Validation the user can search and order by Name",
+        "tags": [],
         "type": "scenario",
         "steps": [
           {
@@ -27,8 +22,117 @@
             "line": 5,
             "name": "the user logins to InsolvencyNZ search page",
             "result": {
-              "status": "passed",
-              "duration": 12591000000
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user inputs Mater value and Search By Name",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the user see the list of InsolvencyNZ related to Name display",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "the the user selects a Document related with name to Order",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the user sees the Order related to Name created successfully",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "insolvencynz-order;validation-the-user-can-search-and-order-by-documentid",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Validation the user can search and order by DocumentID",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user logins to InsolvencyNZ search page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "the user inputs Mater value and Search By DocumentID",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "the user sees the document ID is generated successfully",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "the user clicks on Order to order with this DocumentID",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the user sees the Order related to DocumentID created successfully",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "insolvencynz-order;validation-the-user-can-search-and-order-by-document-status",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Validation the user can search and order by Document status",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user logins to InsolvencyNZ search page",
+            "result": {
+              "status": "skipped"
             }
           },
           {
@@ -37,8 +141,7 @@
             "line": 24,
             "name": "the user inputs Mater value and DocumentID with status Current Bankrupt",
             "result": {
-              "status": "passed",
-              "duration": 6683000000
+              "status": "skipped"
             }
           },
           {
@@ -47,8 +150,7 @@
             "line": 25,
             "name": "the user inputs Mater value and DocumentID with status Discharged Early",
             "result": {
-              "status": "passed",
-              "duration": 6981000000
+              "status": "skipped"
             }
           },
           {
@@ -57,8 +159,7 @@
             "line": 26,
             "name": "the user inputs Mater value and DocumentID with status Conditionally Discharged",
             "result": {
-              "status": "passed",
-              "duration": 6899000000
+              "status": "skipped"
             }
           },
           {
@@ -67,8 +168,7 @@
             "line": 27,
             "name": "the user inputs Mater value and DocumentID with status Current NAP",
             "result": {
-              "status": "passed",
-              "duration": 6867000000
+              "status": "skipped"
             }
           },
           {
@@ -77,8 +177,7 @@
             "line": 28,
             "name": "the user inputs Mater value and DocumentID with status Completed",
             "result": {
-              "status": "passed",
-              "duration": 6869000000
+              "status": "skipped"
             }
           },
           {
@@ -87,8 +186,7 @@
             "line": 29,
             "name": "the user inputs Mater value and DocumentID with status Current SIO",
             "result": {
-              "status": "passed",
-              "duration": 6898000000
+              "status": "skipped"
             }
           },
           {
@@ -97,8 +195,7 @@
             "line": 30,
             "name": "the user inputs Mater value and DocumentID with status Currently in Liquidation",
             "result": {
-              "status": "passed",
-              "duration": 7078000000
+              "status": "skipped"
             }
           },
           {
@@ -107,8 +204,7 @@
             "line": 31,
             "name": "the user inputs Mater value and DocumentID with status Automatically Discharged",
             "result": {
-              "status": "passed",
-              "duration": 6976000000
+              "status": "skipped"
             }
           },
           {
@@ -117,8 +213,7 @@
             "line": 32,
             "name": "the user inputs Mater value and DocumentID with status Unspecified",
             "result": {
-              "status": "passed",
-              "duration": 6976000000
+              "status": "skipped"
             }
           },
           {
@@ -127,8 +222,7 @@
             "line": 33,
             "name": "the user clicks on Order button to complete the Order",
             "result": {
-              "status": "passed",
-              "duration": 44077000000
+              "status": "skipped"
             }
           },
           {
@@ -137,8 +231,7 @@
             "line": 34,
             "name": "the user sees the list of document is correct",
             "result": {
-              "status": "passed",
-              "duration": 270000000
+              "status": "skipped"
             }
           },
           {
@@ -147,8 +240,7 @@
             "line": 35,
             "name": "the user sees the orders with these status generated successfully",
             "result": {
-              "status": "passed",
-              "duration": 501000000
+              "status": "skipped"
             }
           }
         ]

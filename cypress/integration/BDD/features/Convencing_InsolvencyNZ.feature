@@ -18,7 +18,7 @@ Feature:  InsolvencyNZ Order
         And the user clicks on Order to order with this DocumentID
         Then the user sees the Order related to DocumentID created successfully
 
- 
+
     Scenario: Validation the user can search and order by Document status
               
         When the user inputs Mater value and DocumentID with status Current Bankrupt
