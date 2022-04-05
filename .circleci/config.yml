@@ -11,7 +11,7 @@ workflows:
       - cypress/run:
           executor: with-chrome
           browser: chrome
-         post-steps:
+          post-steps:
             - store_artifacts:
                 path: mochawesome-report
 
