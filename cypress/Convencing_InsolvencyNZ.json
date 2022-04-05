@@ -52,7 +52,8 @@
         "DocumentID8":"#nameSearch > tbody > tr:nth-child(15) > td:nth-child(2) > input",
         "Matter9":"#nameSearch > tbody > tr:nth-child(17) > td:nth-child(1)",
         "DocumentID9":"#nameSearch > tbody > tr:nth-child(17) > td:nth-child(2) > input",
-        "Order1":"#formOrderViewGrid"
+        "Order1":"#formOrderViewGrid",
+        "Waitelement":"#nameSearch > tbody > tr:nth-child(17) > td:nth-child(3) > span"
        
     }
 }

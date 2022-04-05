@@ -136,7 +136,12 @@ class NZDocumentStatus
         }
         cy.wait(3000)
         cy.get(Document_status.DocumentID9).type('102553')
-        cy.wait(3000)
+        cy.waitUntil(() =>cy.get(Document_status.Waitelement).contains('102553'),
+        {
+          errorMsg: 'The loading time was too long even for this crazy thing!',
+          timeout: 300000,
+          interval: 5000
+      });
     }
     static OrderClick()
     {
