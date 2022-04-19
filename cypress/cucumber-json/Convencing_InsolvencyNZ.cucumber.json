@@ -13,7 +13,12 @@
         "keyword": "Scenario",
         "line": 8,
         "name": "Validation the user can search and order by Name",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 7
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -23,7 +28,7 @@
             "name": "the user logins to InsolvencyNZ search page",
             "result": {
               "status": "passed",
-              "duration": 11942000000
+              "duration": 7322000000
             }
           },
           {
@@ -33,7 +38,7 @@
             "name": "the user inputs Mater value and Search By Name",
             "result": {
               "status": "passed",
-              "duration": 6637000000
+              "duration": 6733000000
             }
           },
           {
@@ -43,7 +48,7 @@
             "name": "the user see the list of InsolvencyNZ related to Name display",
             "result": {
               "status": "passed",
-              "duration": 375000000
+              "duration": 1012000000
             }
           },
           {
@@ -53,7 +58,7 @@
             "name": "the the user selects a Document related with name to Order",
             "result": {
               "status": "passed",
-              "duration": 6299000000
+              "duration": 6618000000
             }
           },
           {
@@ -63,7 +68,7 @@
             "name": "the user sees the Order related to Name created successfully",
             "result": {
               "status": "passed",
-              "duration": 416000000
+              "duration": 670000000
             }
           }
         ]
@@ -73,7 +78,12 @@
         "keyword": "Scenario",
         "line": 15,
         "name": "Validation the user can search and order by DocumentID",
-        "tags": [],
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 14
+          }
+        ],
         "type": "scenario",
         "steps": [
           {
@@ -83,7 +93,7 @@
             "name": "the user logins to InsolvencyNZ search page",
             "result": {
               "status": "passed",
-              "duration": 7820000000
+              "duration": 9058000000
             }
           },
           {
@@ -93,7 +103,7 @@
             "name": "the user inputs Mater value and Search By DocumentID",
             "result": {
               "status": "passed",
-              "duration": 6821000000
+              "duration": 6808000000
             }
           },
           {
@@ -103,7 +113,7 @@
             "name": "the user sees the document ID is generated successfully",
             "result": {
               "status": "passed",
-              "duration": 348000000
+              "duration": 56000000
             }
           },
           {
@@ -113,7 +123,7 @@
             "name": "the user clicks on Order to order with this DocumentID",
             "result": {
               "status": "passed",
-              "duration": 6346000000
+              "duration": 5862000000
             }
           },
           {
@@ -123,7 +133,7 @@
             "name": "the user sees the Order related to DocumentID created successfully",
             "result": {
               "status": "passed",
-              "duration": 359000000
+              "duration": 882000000
             }
           }
         ]
@@ -142,8 +152,7 @@
             "line": 5,
             "name": "the user logins to InsolvencyNZ search page",
             "result": {
-              "status": "passed",
-              "duration": 7232000000
+              "status": "skipped"
             }
           },
           {
@@ -152,8 +161,7 @@
             "line": 24,
             "name": "the user inputs Mater value and DocumentID with status Current Bankrupt",
             "result": {
-              "status": "passed",
-              "duration": 6658000000
+              "status": "skipped"
             }
           },
           {
@@ -162,8 +170,7 @@
             "line": 25,
             "name": "the user inputs Mater value and DocumentID with status Discharged Early",
             "result": {
-              "status": "passed",
-              "duration": 6873000000
+              "status": "skipped"
             }
           },
           {
@@ -172,8 +179,7 @@
             "line": 26,
             "name": "the user inputs Mater value and DocumentID with status Conditionally Discharged",
             "result": {
-              "status": "passed",
-              "duration": 6910000000
+              "status": "skipped"
             }
           },
           {
@@ -182,8 +188,7 @@
             "line": 27,
             "name": "the user inputs Mater value and DocumentID with status Current NAP",
             "result": {
-              "status": "passed",
-              "duration": 6894000000
+              "status": "skipped"
             }
           },
           {
@@ -192,8 +197,7 @@
             "line": 28,
             "name": "the user inputs Mater value and DocumentID with status Completed",
             "result": {
-              "status": "passed",
-              "duration": 6911000000
+              "status": "skipped"
             }
           },
           {
@@ -202,8 +206,7 @@
             "line": 29,
             "name": "the user inputs Mater value and DocumentID with status Current SIO",
             "result": {
-              "status": "passed",
-              "duration": 6919000000
+              "status": "skipped"
             }
           },
           {
@@ -212,8 +215,7 @@
             "line": 30,
             "name": "the user inputs Mater value and DocumentID with status Currently in Liquidation",
             "result": {
-              "status": "passed",
-              "duration": 6922000000
+              "status": "skipped"
             }
           },
           {
@@ -222,8 +224,7 @@
             "line": 31,
             "name": "the user inputs Mater value and DocumentID with status Automatically Discharged",
             "result": {
-              "status": "passed",
-              "duration": 6975000000
+              "status": "skipped"
             }
           },
           {
@@ -232,8 +233,7 @@
             "line": 32,
             "name": "the user inputs Mater value and DocumentID with status Unspecified",
             "result": {
-              "status": "passed",
-              "duration": 6131000000
+              "status": "skipped"
             }
           },
           {
@@ -242,8 +242,7 @@
             "line": 33,
             "name": "the user clicks on Order button to complete the Order",
             "result": {
-              "status": "passed",
-              "duration": 29590000000
+              "status": "skipped"
             }
           },
           {
@@ -252,8 +251,7 @@
             "line": 34,
             "name": "the user sees the list of document is correct",
             "result": {
-              "status": "passed",
-              "duration": 273000000
+              "status": "skipped"
             }
           },
           {
@@ -262,8 +260,7 @@
             "line": 35,
             "name": "the user sees the orders with these status generated successfully",
             "result": {
-              "status": "passed",
-              "duration": 546000000
+              "status": "skipped"
             }
           }
         ]

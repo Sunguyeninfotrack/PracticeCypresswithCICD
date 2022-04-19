@@ -4,14 +4,14 @@ Feature:  InsolvencyNZ Order
     Background:
         Given the user logins to InsolvencyNZ search page
 
-   
+   @focus
     Scenario: Validation the user can search and order by Name
         When the user inputs Mater value and Search By Name
         Then the user see the list of InsolvencyNZ related to Name display 
         And the the user selects a Document related with name to Order 
         Then the user sees the Order related to Name created successfully
 
-    
+    @focus
     Scenario: Validation the user can search and order by DocumentID
         When the user inputs Mater value and Search By DocumentID
         Then the user sees the document ID is generated successfully
